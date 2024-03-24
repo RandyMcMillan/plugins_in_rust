@@ -63,6 +63,6 @@ mod tests {
         let got = fetch(request).unwrap() as i32;
         println!("{}",got);
 
-        //assert!(request.min <= got && got <= request.max);
+        assert!(request.min <= got && got <= request.max);
     }
 }
