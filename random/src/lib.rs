@@ -41,7 +41,8 @@ struct RequestInfo {
     min: i32,
     max: i32,
 }
-
+//REF:
+//           https://www.random.org/integers/?num=1&min=0&max=10&col=1&base=10&format=plain
 impl RequestInfo {
     pub fn format(self) -> String {
         format!(
